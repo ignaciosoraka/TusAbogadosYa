@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
-    --padding-container: 100px 0;
+    --padding-container: 75px 0;
     --color-title: #001A49;
     --h1-font-size: 58px;
     --h2-font-size: 40px;
@@ -107,6 +107,9 @@ h3 {
     align-items: center;
 }
 
+.logo {
+    height: 15rem;
+}
 
 
 .nav__title {
@@ -387,7 +390,7 @@ h3 {
 }
 
 .price__table {
-    padding-top: 60px;
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 2.5em;
@@ -509,8 +512,10 @@ h3 {
 }
 
 .testimony__rating {
-    color: #FFD700; /* Color amarillo para las estrellas (puedes ajustar el color) */
-    font-size: 24px; /* Tamaño de las estrellas (ajusta según sea necesario) */
+    color: #FFD700;
+    /* Color amarillo para las estrellas (puedes ajustar el color) */
+    font-size: 24px;
+    /* Tamaño de las estrellas (ajusta según sea necesario) */
 }
 
 .star {
@@ -518,11 +523,13 @@ h3 {
 }
 
 .gmail-logo {
-    margin-top: 10px; /* Ajusta la distancia desde el texto según sea necesario */
+    margin-top: 10px;
+    /* Ajusta la distancia desde el texto según sea necesario */
 }
 
 .gmail-logo img {
-    width: 40px; /* Ajusta el tamaño del logotipo según sea necesario */
+    width: 40px;
+    /* Ajusta el tamaño del logotipo según sea necesario */
 }
 
 /* Questions */
@@ -616,15 +623,17 @@ h3 {
 
 
 .footer__container {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #fff;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    
 }
 
 .nav--footer {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display: grid;
     gap: 1em;
     grid-auto-flow: row;
@@ -685,6 +694,12 @@ h3 {
 
 .footer__img {
     width: 30px;
+}
+
+
+.loguito {
+    height: 10rem;
+    margin-left: -50px;
 }
 
 /*formulario*/
@@ -803,15 +818,14 @@ button:hover {
     background: linear-gradient(to right, #000000, #D07703);
 }
 
-.success{
+.success {
     position: absolute;
     top: 50px;
     color: #00c83c;
     font-size: 20px
-    
 }
 
-.error{
+.error {
     position: absolute;
     top: 50px;
     color: #e02d00;
@@ -822,56 +836,56 @@ button:hover {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-    background-image: url('../images/descarga.png');
+    background-image: url('../images/');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline {
+}
+
+.timeline-container .vertical-scrollable-timeline {
     list-style-type: none;
     position: relative;
     padding-left: 0;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline .list-progress {
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress {
     width: 8px;
     height: 87%;
-    background-color: var(--primary-color);
+    background-color: var(--color-cta);
     position: absolute;
     left: 52px;
     top: 0;
     overflow: hidden;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline .list-progress .inner {
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress .inner {
     position: absolute;
     right: 0;
     bottom: 0;
     height: 100%;
     background-color: var(--color-cta);
     width: 100%;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li {
+}
+
+.timeline-container .vertical-scrollable-timeline li {
     position: relative;
     padding: 20px 0px 65px 145px;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li:last-child {
+}
+
+.timeline-container .vertical-scrollable-timeline li:last-child {
     padding-bottom: 0;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li p {
-    line-height: 40px;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li p:last-child {
+}
+
+.timeline-container .vertical-scrollable-timeline li p {
+    line-height: 25px;
+}
+
+.timeline-container .vertical-scrollable-timeline li p:last-child {
     margin-bottom: 0;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li .icon-holder {
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder {
     position: absolute;
     left: 0;
     top: 0;
@@ -884,9 +898,9 @@ button:hover {
     border-radius: 50%;
     z-index: 1;
     transition: 0.4s all;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li .icon-holder::before {
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder::before {
     content: "";
     width: 80px;
     height: 80px;
@@ -896,32 +910,32 @@ button:hover {
     border-radius: 50%;
     z-index: -1;
     transition: 0.4s all;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li .icon-holder i {
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder i {
     font-size: 25px;
     color: var(--white-color);
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li::before {
+}
+
+.timeline-container .vertical-scrollable-timeline li::before {
     content: "";
     position: absolute;
     height: 100%;
     width: 8px;
-    background-color: transparent;
+    background-color: var(--color-cta);
     left: 52px;
     z-index: 0;
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li.active .icon-holder {
-    background-color: var(--primary-color);
-  }
-  
-  .timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
-    background-color: var(--primary-color);
-  }
-  
-  
+}
+
+.timeline-container .vertical-scrollable-timeline li.active .icon-holder {
+    background-color: var(--color-cta);
+}
+
+.timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
+    background-color: var(--color-cta);
+}
+
+
 @media screen and (max-width: 1082px) {
 
     .timeline-container .vertical-scrollable-timeline .list-progress {
@@ -931,7 +945,7 @@ button:hover {
     .timeline-container .vertical-scrollable-timeline li {
         padding-left: 135px;
     }
-    
+
 
 }
 
@@ -1034,6 +1048,12 @@ button:hover {
 
     .footer__container {
         flex-wrap: wrap;
+       
+    }
+
+    .loguito {
+       
+        justify-items: center;;
     }
 
     .nav--footer {
@@ -1059,6 +1079,12 @@ button:hover {
 }
 
 @media (max-width:600px) {
+
+
+
+    .logo {
+        height: 11rem;
+    }
 
 
     .whatsapp-button img {
