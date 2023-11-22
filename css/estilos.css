@@ -390,16 +390,17 @@ h3 {
 }
 
 .price__table {
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 2.5em;
     justify-content: space-evenly;
-    align-items: center;
+    
+    
 }
 
 .price__element {
-    background-color: #e5e5f7;
+    background-color: var(--color-cuarto);
     text-align: center;
     border-radius: 10px;
     width: 330px;
@@ -424,14 +425,14 @@ h3 {
 
 
 .price__name {
-    color: var(--color-plan);
+    color: var(--bg-cta);
     margin-bottom: 15px;
     font-weight: 300;
 }
 
 .price__price {
     font-size: 2rem;
-    color: var(--color-price);
+    color: var(--bg-cta);
 }
 
 .price__items {
@@ -441,7 +442,7 @@ h3 {
     font-weight: 300;
     font-size: 1.2rem;
     margin-bottom: 50px;
-    color: var(--color-items);
+    color: var(--bg-cta);
 }
 
 .price__cta {
@@ -449,10 +450,11 @@ h3 {
     padding: 20px 0;
     border-radius: 10px;
     text-decoration: none;
-    background-color: var(--bg-cta);
+    background-color: var(--color-primario);
     font-weight: 600;
-    color: var(--color-cta);
+    color: var(--bg-cta);
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    font-size: 30px;
 }
 
 /* Testimony */
