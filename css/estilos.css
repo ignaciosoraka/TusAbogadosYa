@@ -1053,7 +1053,11 @@ button:hover {
 
     .loguito {
        
-        justify-items: center;;
+        display: flex;
+      justify-content: center; /* Centra horizontalmente los elementos hijos */
+      align-items: center; /* Centra verticalmente los elementos hijos */
+      margin-left: 18px;
+      height: 100px;;
     }
 
     .nav--footer {
