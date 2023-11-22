@@ -800,8 +800,8 @@ textarea:focus~.barra::before {
 button {
     background: #000000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #D07703, #000000);
-    background: linear-gradient(to right, #D07703, #000000);
+    background: -webkit-linear-gradient(to right, #2F2E42, #2F2E42);
+    background: linear-gradient(to right, #2F2E42, #2F2E42);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: block;
     width: 100px;
@@ -815,7 +815,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #000000, #D07703);
+    background: linear-gradient(to right, #2F2E42, #2F2E42);
 }
 
 .success {
