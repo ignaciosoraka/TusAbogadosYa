@@ -199,7 +199,8 @@ h3 {
 }
 
 .cta:hover {
-    background-color: #3f3f9496;
+    background-color: #3498db; /* Cambia el color de fondo al pasar el ratón */
+    color: #fff; 
 }
 
 .whatsapp:hover {
